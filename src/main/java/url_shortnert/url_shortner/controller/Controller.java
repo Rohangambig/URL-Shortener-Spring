@@ -9,6 +9,6 @@ public class Controller {
 
     @GetMapping("health")
     public String health() {
-        return "OK";
+        return "Server is listening...";
     }
 }
