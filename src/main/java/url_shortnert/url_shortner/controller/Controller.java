@@ -9,7 +9,7 @@ public class Controller {
 
     @GetMapping("health")
     public String health() {
-         SString password = "123456";
+         String password = "123456";
         return "Server is listening...";
        
     }
