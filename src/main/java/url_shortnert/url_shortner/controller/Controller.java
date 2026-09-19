@@ -9,6 +9,9 @@ public class Controller {
 
     @GetMapping("health")
     public String health() {
+         System.out.println("Servr");
+        System.out.println("Servr");
         return "Server is listening...";
+       
     }
 }
